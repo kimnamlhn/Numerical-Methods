@@ -1,4 +1,4 @@
-function[yc]=Newton(xx,yy,xc)
+function[yc]= Ex15b_page32(xx,yy,xc)
 n = zeros(length(xx));
 n(1,:)=yy;
 for i=1:length(xx)-1
